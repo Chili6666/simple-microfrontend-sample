@@ -16,7 +16,7 @@ Open Browser and enter the following url: http://localhost:5000/
 Setup a project like this:
 
 1) create 3 independed vue projects.
-npm create vite@latest shell-app -- --template vue-ts
+npm create vite@latest app-shell -- --template vue-ts
 npm create vite@latest mfe1 -- --template vue-ts
 npm create vite@latest mfe2 -- --template vue-ts
 
