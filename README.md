@@ -114,3 +114,32 @@ The federation plugin is configured with:
 - name: The name of your host application
 - remotes: External components you want to consume
 - shared: Common dependencies that should be shared
+
+
+
+### Ensure that the app-shell router is correctly configured to handle the MFE routes. For example:
+
+*To resolve the issue of the module not being found, ensure that the remotes.d.ts file is correctly placed and that TypeScript is aware of it.*
+
+Here are the steps:
+
+
+1) Create or update remotes.d.ts file:
+Ensure you have a remotes.d.ts file at the root of your project or in the src directory with the following content:
+
+
+```ts
+declare module 'mfe1/App';
+declare module 'mfe2/App';
+```
+
+2) Include the remotes.d.ts file in tsconfig.app.json:
+
+Make sure that the remotes.d.ts file is included in your tsconfig.app.json file. Add the include section if it doesn't exist:
+
+```ts
+ "include": ["remotes.d.ts"]
+```
+
+
+
