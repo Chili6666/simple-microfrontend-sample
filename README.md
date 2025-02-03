@@ -104,6 +104,11 @@ export default defineConfig({
   ],
   server: {
     port: 5000
+  },
+  build: {
+    target: 'esnext', // Use a target that supports top-level await
+    minify: false,
+    cssCodeSplit: false
   }
 })
 ```
