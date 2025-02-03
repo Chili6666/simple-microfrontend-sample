@@ -67,7 +67,7 @@ export default defineConfig({
 
 The federation plugin is configured with:
 
-- name: The name of your host application
+- name: The name of your microfrontend
 - exposes: Components you want to share with other applications
 - shared: Common dependencies that should be shared
 
