@@ -9,6 +9,7 @@ export default defineConfig({
     federation({
       //The name of your host application
       name: "mfe2",
+      // The file name of the remote entry
       filename: "remoteEntry.js",
       // Modules to expose
       exposes: {
