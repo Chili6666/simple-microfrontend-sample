@@ -4,7 +4,6 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/mfe1">MFE1</router-link> |
       <router-link to="/mfe2">MFE2</router-link>
-      <router-link to="/mfe3">MFE3</router-link>
     </nav>
     <router-view></router-view>
   </div>
