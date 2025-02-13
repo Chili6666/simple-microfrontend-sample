@@ -6,14 +6,17 @@
   "workspaces": [
     "app-shell",
     "mfe1",
-    "mfe2"
+    "mfe2",
+    "mfe3"
   ],
   "scripts": {
     "install:all": "npm install",
     "build:mfe1": "npm run build -w mfe1",
     "build:mfe2": "npm run build -w mfe2",
+    "build:mfe3": "npm run build -w mfe3",
     "preview:mfe1": "npm run preview -w mfe1 -- --port 4001",
     "preview:mfe2": "npm run preview -w mfe2 -- --port 4002",
+    "preview:mfe3": "npm run preview -w mfe3 -- --port 4003",
     "dev:shell": "npm run dev -w app-shell",
     "start": "npm-run-all --parallel build:mfe* preview:mfe* dev:shell"
   },

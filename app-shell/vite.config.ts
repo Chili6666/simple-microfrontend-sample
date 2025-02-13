@@ -9,9 +9,10 @@ export default defineConfig({
       name: 'app-shell',
       remotes: {
         mfe1: 'http://localhost:4001/assets/remoteEntry.js',
-        mfe2: 'http://localhost:4002/assets/remoteEntry.js'
+        mfe2: 'http://localhost:4002/assets/remoteEntry.js',
+        mfe3: 'http://localhost:4003/assets/remoteEntry.js'
       },
-      shared: ['vue']
+      shared: ['vue', 'react', 'react-dom']
     })
   ],
   server: {
