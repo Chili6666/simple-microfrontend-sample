@@ -16,7 +16,7 @@
       <div class="feature">
         <h3>React 2</h3>
         <p>Shows advanced routing and view composition</p>
-        <router-link to="/mfe3" class="btn">Explore MFE2</router-link>
+        <router-link to="/mfe3" class="btn">Explore MFE3</router-link>
       </div>
     </div>
   </div>
