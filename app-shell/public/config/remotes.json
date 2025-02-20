@@ -1,0 +1,10 @@
+{
+    "mfe1": {
+      "url": "http://localhost:4001/assets/remoteEntry.js",
+      "type": "vite"
+    },
+    "mfe2": {
+      "url": "http://localhost:4002/assets/remoteEntry.js",
+      "type": "vite"
+    }
+  }
